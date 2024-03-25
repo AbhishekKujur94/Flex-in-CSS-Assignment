@@ -1,0 +1,33 @@
+Let's go through each of these key properties in the Flexbox layout model:
+
+(i) justify-content: This property defines how the browser distributes space between and around content items along the main axis of the flex container. It controls the alignment of flex items within the container when they do not take up all available space. Possible values include:
+
+- `flex-start`: Items are packed toward the start of the main axis.
+- `flex-end`: Items are packed toward the end of the main axis.
+- `center`: Items are centered along the main axis.
+- `space-between`: Items are evenly distributed along the main axis with the first item at the start and the last item at the end having no extra space.
+- `space-around`: Items are evenly distributed along the main axis with equal space around them.
+- `space-evenly`: Items are evenly distributed along the main axis with equal space around them, including at the start and end.
+
+(ii) align-items: This property defines how the browser aligns flex items along the cross axis of the flex container. It controls the alignment of items within the container when they do not stretch to fill the container along the cross axis. Possible values include:
+
+- `flex-start`: Items are aligned at the start of the cross axis.
+- `flex-end`: Items are aligned at the end of the cross axis.
+- `center`: Items are centered along the cross axis.
+- `baseline`: Items are aligned based on their baseline.
+- `stretch`: Items are stretched to fill the container along the cross axis.
+
+(iii) gap: This property defines the spacing between flex items within a flex container. It sets the gap between items both along the main axis and the cross axis. It's a shorthand property for `row-gap` and `column-gap` in Grid layout. Example usage: `gap: 10px;` or `gap: 20px 10px;` (row gap and column gap respectively).
+
+(iv) flex-direction: This property specifies the direction of the main axis in the flex container, and the direction in which flex items are placed in the flex container. It affects the layout of flex items inside the flex container. Possible values include:
+
+- `row`: Flex items are placed along the main axis from left to right.
+- `row-reverse`: Flex items are placed along the main axis from right to left.
+- `column`: Flex items are placed along the main axis from top to bottom.
+- `column-reverse`: Flex items are placed along the main axis from bottom to top.
+
+(v) flex-wrap: This property defines whether flex items are forced onto a single line or can wrap onto multiple lines within the flex container. It controls whether flex items are allowed to wrap if there is insufficient space along the main axis. Possible values include:
+
+- `nowrap`: Flex items are forced onto a single line.
+- `wrap`: Flex items wrap onto multiple lines as needed.
+- `wrap-reverse`: Flex items wrap onto multiple lines in the opposite direction.
